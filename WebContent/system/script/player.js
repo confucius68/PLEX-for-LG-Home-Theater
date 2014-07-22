@@ -166,7 +166,7 @@ Player.prototype.initialise = function()
 		$("#message").show();	
 	};
 	
-	this.progessbar = $("#progressbar-container").progressbar({width: "600px", height: "8px"});
+	this.progessbar = $("#progressbar-container").progressbar({width: "50%", height: "1%"});
 
 	$("#controls a, .options a").tooltipster();
 	
